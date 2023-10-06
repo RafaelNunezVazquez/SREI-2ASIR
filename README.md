@@ -1,3 +1,19 @@
 # SREI-2ASIR
-**Este repositorio contiene el Temario y Actividades dedl curso 2º SREI**
-[Enlace para Github](https://github.com)
+Este repositorio contiene Actividades del curso 2º SREI
+
+**Tema0 - Introducción**
+Ejercicio N | Breve descripción 
+---- | ----
+Ejercicio 1 | Breve descripción 0.1
+Ejercicio 2 | Breve descripción 0.2
+..... | ......
+
+**Tema 1 - Servidores web**
+Ejercicio N | Breve descripción
+------ | ------
+Ejercicio 1 | Breve descripción 0.1
+Ejercicio 2 | Breve descripción 0.2
+..... | ......
+
+
+[Enlace para Github](http://github.com)
