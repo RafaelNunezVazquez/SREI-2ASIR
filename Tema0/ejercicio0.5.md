@@ -6,6 +6,10 @@ Una vez hemos creado y guardado nuestra página index.html, cuando arranquemos e
 
 ![Arrancar_servidor](2.png)
 
-Una vez hemos arrancado el servidor local podemos comprobar si funciona correctamente mediante el nanvegadro, buscamos localhost:8000
+Usado el comando: python -m http.server 8000, hemos arrancado el servidor local podemos comprobar si funciona correctamente buscamos en el navegador, buscamos localhost:8000
 
-![Comrpobar_servidor](3.png)
+![Comprobar_servidor](3.png)
+
+Podemos hacer lo mismo usando un archivo de lenguaje python que es un servidor, una vez tenemos el código podemos ejecutar el archivo.
+
+Mi servidor tiene este código fuente (haz click en el enlace para verlo) [Servidor web python](Servidorweb.py)
