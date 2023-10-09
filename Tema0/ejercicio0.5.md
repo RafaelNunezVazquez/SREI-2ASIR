@@ -6,7 +6,7 @@ Una vez hemos creado y guardado nuestra página index.html, cuando arranquemos e
 
 ![Arrancar_servidor](2.png)
 
-Usado el comando: python -m http.server 8000, hemos arrancado el servidor local podemos comprobar si funciona correctamente buscamos en el navegador, buscamos localhost:8000
+Usado el comando: python -m http.server 8000, hemos arrancado el servidor local para comprobar si funciona correctamente buscamos en el navegador, localhost:8000
 
 ![Comprobar_servidor](3.png)
 
@@ -20,3 +20,4 @@ Para ejecutarlo escribo en la cmd: python "nombre_archivo.py" hay que indicar el
 Tambien nos indica el numero de puerto que ocupa sus servicios.
 
 ![Servidor descargado](4.png)
+
