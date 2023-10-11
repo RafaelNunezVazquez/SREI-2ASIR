@@ -21,3 +21,6 @@ Tambien nos indica el numero de puerto que ocupa sus servicios.
 
 ![Servidor descargado](4.png)
 
+Una vez hemos arrancado el server y permitimos al mismo atravesar nuestro firewall vamos a comprobar su funcionamiento
+
+![Servidor pythonfuncionando](5.png)
