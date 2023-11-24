@@ -29,3 +29,11 @@ Antes dejo aquí una muestra de la configuración de red de mi S.O.
 Ahora puedo buscar la direccion ip en el navegador, (en mi caso 127.0.0.1 O 182.168.195.128)
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bb4d7456-0a6c-4e17-89c2-18f5027bd46a)
+
+Una vez tengo mi servidor apache instalado, voy a instalar mysq usando el comando: apt install mysql-server
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/e715d615-8f34-4cf2-940e-8ff3b145cd9c)
+
+
+
+
