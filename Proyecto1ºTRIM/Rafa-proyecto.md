@@ -83,5 +83,11 @@ Para finalizar vamos a agregar los DNS a la ip de mi servidor en el archivo host
 
 Una vez he reiniciado el servidor, usando el comando "systemctl reload apache2" apache ya debería mostrarnos las páginas de ejemplo de cada Host virtual. voy a comprobarlo.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/0b7804c9-7886-4c4e-ace4-50edac322463)
+
+Haré la misma comprobación con mi dominio virtual departamentos.centro.intranet.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4d12a35a-1f07-461f-a498-4f1afae37d45)
+
 
 
