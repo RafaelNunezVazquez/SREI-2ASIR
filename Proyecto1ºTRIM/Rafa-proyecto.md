@@ -61,7 +61,18 @@ Voy a crear una pagina html de demostración en centro.intranet para comprobar l
 
 Hago lo mismo para departamentos.centro.intranet.
 
-Una vez hecho esto, voy a crear un archivo de configuración de host virtual, por defecto tenemos la 000-default.conf.
+Una vez hecho esto, voy a crear un archivo de configuración de host virtual para centro.intranet, por defecto tenemos la 000-default.conf.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5906f0d9-1832-4f8a-b465-ed3bbd2a80e8)
+
+Haré lo mismo para departamentos.centro.intranet. Haré una copia con el nombre: departaments.centro.intranet y la modificaré.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bf2dc0d8-ecee-4c76-82ef-280488c18828)
+
+Voy a modicarlo con nano, luego guardo el archivo y cierro.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d3593d83-c697-456a-9974-b6fbeb32319f)
+
 
 
 
