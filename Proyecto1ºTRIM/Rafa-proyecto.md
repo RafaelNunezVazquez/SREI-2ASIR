@@ -13,7 +13,7 @@ Vamos a comprobar que el firewall del S.O. permite las conexiones a internet. Us
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/349f9043-4c48-4063-adc7-fb4f86df880e)
 
-Mediante el comando: ufw app info "Apache Full" vamos a comrpobar la información que tenemos de apache2 en nuestro S.O.(puertos que usa,etc)
+Mediante el comando: ufw app info "Apache Full" vamos a comprobar la información que tenemos de apache2 en nuestro S.O.(puertos que usa,etc)
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/78022486-301f-49ab-abbe-ab894c8e86b2)
 
@@ -33,6 +33,22 @@ Ahora puedo buscar la direccion ip en el navegador, (en mi caso 127.0.0.1 O 182.
 Una vez tengo mi servidor apache instalado, voy a instalar mysq usando el comando: apt install mysql-server
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/e715d615-8f34-4cf2-940e-8ff3b145cd9c)
+
+Podemos acceder a mysql y ver si la instalacion es correcta además de su versión usando el comando: sudo mysql
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/630dd97f-f528-446d-850e-8f4e60225d7d)
+
+
+Para poder seguir instalando aplicaciones en nuestro ubuntu es importante actuyalizar el S.O sudo apt update
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/65de4a71-03ea-4435-8839-7dd8aaac50ce)
+
+Seguimos instalando ahora PHP y librerías relacionadas con php-apache2 y php-mysql. (Ya las tenía instaladas pero adjunto captura).
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/3394744c-73fc-450c-8b58-4560be6ac886)
+
+
+
 
 
 
