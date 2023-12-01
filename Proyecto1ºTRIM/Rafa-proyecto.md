@@ -47,9 +47,21 @@ Seguimos instalando ahora PHP y librerías relacionadas con php-apache2 y php-my
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/3394744c-73fc-450c-8b58-4560be6ac886)
 
+Puedo empezar a crear los dos dominios DNS en mi directorio raíz /var/www 
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d5d0bd09-e0fa-4622-a2d9-d03cdd2cc677)
 
+Voy a cambiar los permisos sobre el documentRoot (/var/www) para que se permita el acceso de lectura al directorio web general y a los archivos y las carpetas que contiene
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5b5ef697-bec3-4fb5-8375-39db51108e39)
+
+Voy a crear una pagina html de demostración en centro.intranet para comprobar luego que los host virtuales están operativos.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/562866b2-4b1d-4bd3-aa40-848c318b4299)
+
+Hago lo mismo para departamentos.centro.intranet.
+
+Una vez hecho esto, voy a crear un archivo de configuración de host virtual, por defecto tenemos la 000-default.conf.
 
 
 
