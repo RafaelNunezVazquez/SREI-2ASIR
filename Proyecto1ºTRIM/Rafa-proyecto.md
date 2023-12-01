@@ -65,7 +65,7 @@ Una vez hecho esto, voy a crear un archivo de configuración de host virtual par
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5906f0d9-1832-4f8a-b465-ed3bbd2a80e8)
 
-Haré lo mismo para departamentos.centro.intranet. Haré una copia con el nombre: departaments.centro.intranet y la modificaré.
+Haré lo mismo para departamentos.centro.intranet. Haré una copia con el nombre: departamentos.centro.intranet y la modificaré.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bf2dc0d8-ecee-4c76-82ef-280488c18828)
 
@@ -73,6 +73,15 @@ Voy a modicarlo con nano, luego guardo el archivo y cierro.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d3593d83-c697-456a-9974-b6fbeb32319f)
 
+Una vez creados los archivos de configuración de los Hosts virtuales, voy a eliminar los que vienen por defecto en Apache y a habilitar los que he creado.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/8b214840-1ac5-485c-84f8-8d00a993cbb3)
+
+Para finalizar vamos a agregar los DNS a la ip de mi servidor en el archivo hosts.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/8b214840-1ac5-485c-84f8-8d00a993cbb3)
+
+Una vez he reiniciado el servidor, usando el comando "systemctl reload apache2" apache ya debería mostrarnos las páginas de ejemplo de cada Host virtual. voy a comprobarlo.
 
 
 
