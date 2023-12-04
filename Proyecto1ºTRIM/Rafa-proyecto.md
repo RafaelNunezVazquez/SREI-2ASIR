@@ -159,4 +159,17 @@ Ahora voy a comprobar mediante el navegador si todo funciona y comenzaré a conf
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a93fba3c-1114-46ef-8fec-fc64ce27274d)
 
+Voy a configurar wordpress desde el navegador usando la base de datos que creé antes, el usuario su contraseña.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7efc0c43-4b70-4043-8fe7-d233ca611e7c)
+
+Me dice que no puede encontrar el fichero wp-config.php (no coinciden los nombres), he buscado en el directorio wordpress y al descomprimirlo el nombre es distinto pero el archivo es igual, tiene de nombre wp-config-sample.php. Le cambiaré el nombre a wp-config.php
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2dff4823-c5e7-4a3d-a1a7-5e595678a9f4)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/db0a4e4c-0182-4259-b214-352dd9456ccf)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bcd85640-9df9-4e0a-a67a-4c29e6cfd9ef)
+
+Ahora recargo el server apache con systemctl restart apache2 y vuelvo a conectar wordpress con la base de datos.
 
