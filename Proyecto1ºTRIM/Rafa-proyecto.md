@@ -93,4 +93,18 @@ Voy a crear una página de prueba de formato php para probar que PHP funciona co
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/34a823ec-31bd-41b3-a2c1-b42efd432534)
 
+La página de ejemplo con informacion php se ve así.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9f64ecce-a556-448d-8a28-ff65f2ddc5a6)
+
+Ahora voy a configurar mysql para instalar wordpress, crearé una base de datos de wordpress (entramos en mysql mediante el comando: sudo mysql).
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7e90f744-bc73-4521-ab4a-5372ed270576)
+
+Ahora voy a crear un usuario para la base de datos WordPressBD que acabo de crear, también le indico la contraseña de acceso al usuario
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/98003347-804c-4f2f-b54a-f90dce8927dc)
+
+
+
 
