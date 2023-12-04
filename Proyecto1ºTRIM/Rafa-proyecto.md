@@ -181,6 +181,8 @@ Una vez wordpress ha conectado con exito con la base de datos mysql de mi server
 
 Una vez instalado voy a hacer login con mi mi usuario de wordpress RafaWordPress.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ac20e4fd-8426-49f4-8a5e-cbf34ebfb72b)
+
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7ef4ba1b-b10a-45ff-923e-eaf1d36e7af2)
 
 
