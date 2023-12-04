@@ -119,9 +119,44 @@ Es necesario activar el modulo rewrite para que Wordpress use enlaces permanente
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9186a03b-e16f-4fed-8906-d981e80d318e)
 
-Voy a comprobar que el servidor se encuantra operativo después de aplicar los cambios en birtual host.
+Voy a comprobar que el servidor se encuentra operativo después de aplicar los cambios en virtual host.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/da4530ca-a8f6-4f7e-ba90-7aeaa95dae6f)
 
+En el archivo de configuración apache2.conf voy a implementar la directiva ServerName y la IP de mi server.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/b56f3b9d-c40b-4975-bcc7-4e7f3eb72ca0)
+
+Voy a comprobar que la configuracíon es correcta mediante: apachectl configtest.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a0d963c3-0185-4e67-90e6-f56878c5be59)
+
+El servidor está listo para instalar wordpress. Para ello voy a instalar el paquete wget para descargar los archivos de la nube.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/8992531d-06f9-413a-8613-534c90528678)
+
+Ahora voy a descargar el paquete comprimido de wordpress desde la página oficial.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c07d1f6b-3f3f-4c10-946e-820196590980)
+
+Una vez que he descargado el archivo comprimido, instalaré la aplicación de descompresión "unzip"
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/171452b2-a6fe-4a56-a340-8e3ceee92591)
+
+Ahora voy a mover el archivo comprimido (antes de descomprimirlo) al directorio centro.intranet(Mi dominio que usará Wordpress).
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2c6ea0df-6191-40ef-8f07-b03065f34c69)
+
+Una vez situados en el directorio correspondiente, voy a descomprimir el archivo.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/6dc4b5ca-1342-45d0-888a-22e2900ff653)
+
+Así queda mi DNS una vez he descomprimido wordpress.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9d85afaf-a4d5-4536-8dfc-cff6e6ab1df3)
+
+Ahora voy a comprobar mediante el navegador si todo funciona y comenzaré a configurar mi wordpress.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a93fba3c-1114-46ef-8fec-fc64ce27274d)
 
 
