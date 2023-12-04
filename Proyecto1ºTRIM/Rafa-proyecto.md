@@ -101,10 +101,27 @@ Ahora voy a configurar mysql para instalar wordpress, crearé una base de datos 
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7e90f744-bc73-4521-ab4a-5372ed270576)
 
-Ahora voy a crear un usuario para la base de datos WordPressBD que acabo de crear, también le indico la contraseña de acceso al usuario
+Ahora voy a crear un usuario para la base de datos WordPressBD que acabo de crear, también le indico la contraseña de acceso al usuario y le doy permiso sobre toda la base de datos.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/98003347-804c-4f2f-b54a-f90dce8927dc)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7065d312-f9a8-4277-bbe5-abdec601837d)
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f06bc063-84ff-4eed-b9b8-d92cd752ee43)
+
+Podemos comprobar que se ha creado el usuario usando la siguiente query: mysql> SELECT user FROM mysql. user;
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/377f4ce2-02af-4170-a889-cd897db12335)
+
+Para instalar Wordpress voy a modificar el archivo de configuración de mi domino centro.intranet que servirá contenido a través de wordpress.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/0e3f669c-fbde-4de3-acab-dd6eaf393237)
+
+Es necesario activar el modulo rewrite para que Wordpress use enlaces permanentes.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9186a03b-e16f-4fed-8906-d981e80d318e)
+
+Voy a comprobar que el servidor se encuantra operativo después de aplicar los cambios en birtual host.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/da4530ca-a8f6-4f7e-ba90-7aeaa95dae6f)
 
 
 
