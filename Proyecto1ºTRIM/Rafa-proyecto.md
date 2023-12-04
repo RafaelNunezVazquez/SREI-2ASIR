@@ -89,5 +89,8 @@ Haré la misma comprobación con mi dominio virtual departamentos.centro.intrane
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4d12a35a-1f07-461f-a498-4f1afae37d45)
 
+Voy a crear una página de prueba de formato php para probar que PHP funciona correctamente.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/34a823ec-31bd-41b3-a2c1-b42efd432534)
 
 
