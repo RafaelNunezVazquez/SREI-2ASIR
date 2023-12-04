@@ -221,7 +221,28 @@ Voy a instalar git para poder descargar archivos desde repositorios de git hub.
 
 Una vez instalado git, voy a extraer de git hub la aplicacion django y la descargaré directamente en mi DNS departamentos.centro.intranet. 
 
+Para probar con una aplicación voy a crear un pequeño script muy simple que mediante Flask se visualizará en mi navegador. 
+Primero voy a instalar Flask.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/612ab601-703d-4c15-bddb-83ec0abfc3b3)
+
+Ahora voy a crear el script llamado aplicacion.py dentro de mi DNS departamentos.centro.intranet.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/8c7b6b76-485f-4b57-96f3-e9a026f1baa7)
+
+Una vez creada la aplicación voy a crear un archivo de configuración llamado aplicacion-wsgi.ini para la aplicación dentro del mismo directorio.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f577ee4a-ae61-4206-b8e2-150655464376)
+
+El directorio de mi DNS quedad así.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7c65298a-945d-410f-8249-909804844ea0)
+
+Ahora voy a modificar mi archivo virtual host para departamentos.centro.intranet. 
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/df7ccd72-bfe5-4ce6-84b8-5423be2924f3)
+
+Ahora voy a reiniciar apache y comprobar si funciona.
 
 
 
