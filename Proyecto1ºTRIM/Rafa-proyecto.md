@@ -186,5 +186,42 @@ Una vez instalado voy a hacer login con mi mi usuario de wordpress RafaWordPress
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7ef4ba1b-b10a-45ff-923e-eaf1d36e7af2)
 
+Con esto ya tenemos el wordpress instalado correctamente y vinculado a nuestra base de datos mysql.
+
+Así se ve mi pagina de centro.intranet usando wordpress.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d67c6406-3884-4c51-859b-4cc0a5b555b9)
+
+
+Ahora voy a implementar el modulo wsgi, antes voy a instalar librerias de python que son necesarias.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/15fff534-cb40-4bea-93ee-c33348e977e7)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/07dbcabe-edfe-4038-9102-309eb1a23304)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d327149a-d462-4344-9dcc-ea47720974e3)
+
+Ya tenemos el modulo instalado voy a habilitarlo usando: a2enmod wsgi
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9991e362-75f9-486d-b39b-2d0bf9c579c8)
+
+Voy a usar django para probar que mi servidor puede interpretar el lenguaje python, para instalar django usar pip.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ffe9797d-4a8f-4fac-89d9-189e37cacd7e)
+
+Ahora voy a isntalar django mediante el comando: python3 -m pip install Django.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/af103ebd-4b7e-46d9-af56-ce465fd7bf33)
+
+Voy a instalar git para poder descargar archivos desde repositorios de git hub.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/92f81925-143f-4a24-beb4-b2b0d077d559)
+
+
+
+Una vez instalado git, voy a extraer de git hub la aplicacion django y la descargaré directamente en mi DNS departamentos.centro.intranet. 
+
+
+
 
 
