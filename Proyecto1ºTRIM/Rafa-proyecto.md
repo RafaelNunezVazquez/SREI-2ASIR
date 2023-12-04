@@ -173,3 +173,15 @@ Me dice que no puede encontrar el fichero wp-config.php (no coinciden los nombre
 
 Ahora recargo el server apache con systemctl restart apache2 y vuelvo a conectar wordpress con la base de datos.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/e3193ebe-ac7e-48cf-9cad-7116248bb1e6)
+
+Una vez wordpress ha conectado con exito con la base de datos mysql de mi server apache, voy a instalarlo definitivamente.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ecb2d223-aed2-4132-bc90-00ddac550445)
+
+Una vez instalado voy a hacer login con mi mi usuario de wordpress RafaWordPress.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7ef4ba1b-b10a-45ff-923e-eaf1d36e7af2)
+
+
+
