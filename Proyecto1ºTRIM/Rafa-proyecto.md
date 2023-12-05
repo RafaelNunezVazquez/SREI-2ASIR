@@ -205,22 +205,6 @@ Ya tenemos el modulo instalado voy a habilitarlo usando: a2enmod wsgi
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9991e362-75f9-486d-b39b-2d0bf9c579c8)
 
-Voy a usar django para probar que mi servidor puede interpretar el lenguaje python, para instalar django usar pip.
-
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ffe9797d-4a8f-4fac-89d9-189e37cacd7e)
-
-Ahora voy a isntalar django mediante el comando: python3 -m pip install Django.
-
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/af103ebd-4b7e-46d9-af56-ce465fd7bf33)
-
-Voy a instalar git para poder descargar archivos desde repositorios de git hub.
-
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/92f81925-143f-4a24-beb4-b2b0d077d559)
-
-
-
-Una vez instalado git, voy a extraer de git hub la aplicacion django y la descargaré directamente en mi DNS departamentos.centro.intranet. 
-
 Para probar con una aplicación voy a crear un pequeño script muy simple que mediante Flask se visualizará en mi navegador. 
 Primero voy a instalar Flask.
 
@@ -240,9 +224,12 @@ El directorio de mi DNS quedad así.
 
 Ahora voy a modificar mi archivo virtual host para departamentos.centro.intranet. 
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/df7ccd72-bfe5-4ce6-84b8-5423be2924f3)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/464cbeaf-9e11-40dc-be0c-0bf8f418d249)
 
-Ahora voy a reiniciar apache y comprobar si funciona.
+Ahora voy a reiniciar apache y comprobar si funciona. (Uso systemctl restart apache2, systemctl status apache2) (Tambiés uso: python3 aplicacion.py para comprobar que el sript se ejecuta correctamente).
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bb1dca32-7cba-4431-aaba-893e8beb1da3)
+
 
 
 
