@@ -19,5 +19,5 @@ Ejercicio 2 | Breve descripción 0.2
 [Enlace para Github](http://github.com)
 
 **Proyecto 1º trimestre**
-[Enlace directo](/Proyecto1ºTRIM/Rafa-proyecto) | Este proyecto se  basa en un servidor Apache.
+[Enlace-proyecto](/Proyecto1ºTRIM/Rafa-proyecto.md) | Este proyecto se  basa en un servidor Apache.
 ---------- | --------- 
