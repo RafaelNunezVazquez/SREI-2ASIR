@@ -192,7 +192,6 @@ Así se ve mi pagina de centro.intranet usando wordpress.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d67c6406-3884-4c51-859b-4cc0a5b555b9)
 
-
 Ahora voy a implementar el modulo wsgi, antes voy a instalar librerias de python que son necesarias.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/15fff534-cb40-4bea-93ee-c33348e977e7)
@@ -204,6 +203,9 @@ Ahora voy a implementar el modulo wsgi, antes voy a instalar librerias de python
 Ya tenemos el modulo instalado voy a habilitarlo usando: a2enmod wsgi
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9991e362-75f9-486d-b39b-2d0bf9c579c8)
+
+
+
 
 Para probar con una aplicación voy a crear un pequeño script muy simple que mediante Flask se visualizará en mi navegador. 
 Primero voy a instalar Flask.
