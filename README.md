@@ -15,6 +15,10 @@ Ejercicio 1 | Breve descripción 0.1
 Ejercicio 2 | Breve descripción 0.2
 ..... | ......
 
+**Tema 2 - DNS**
+
+[Ejercicio 5](/Tema2/#5-DNS) | Instalamos bind en nuestro server
+
 
 [Enlace para Github](http://github.com)
 
