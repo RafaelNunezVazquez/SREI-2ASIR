@@ -16,10 +16,11 @@ Ejercicio 2 | Breve descripción 0.2
 ..... | ......
 
 **Tema 2 - DNS**
-
- [Ejercicio 4](Tema2/#4-DNS) | Usamos el comando dig de ubuntu.
+Ejercicio N | Breve descripción
+---- | ----
+[Ejercicio 4](Tema2/#4-DNS) | Usamos el comando dig de ubuntu.
 [Ejercicio 5](/Tema2/#5-DNS) | Instalamos bind en nuestro server.
-
+---- | ----
 
 [Enlace para Github](http://github.com)
 
