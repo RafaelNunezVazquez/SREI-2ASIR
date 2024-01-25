@@ -1,5 +1,5 @@
 # SREI-2ASIR
-Este repositorio contiene Actividades del curso 2º SREI
+Este repositorio contiene Actividades del curso 2º SREI, en especial servidor apache en ubuntu.
 
 **Tema0 - Introducción**
 Ejercicio N | Breve descripción 
