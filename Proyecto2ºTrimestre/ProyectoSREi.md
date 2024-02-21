@@ -1,4 +1,4 @@
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f33d8843-7aa4-4c51-b5f0-abfa970c5dbd)Para empezar vamos a instalar ubuntu22.04 que actuará como master.
+Para empezar vamos a instalar ubuntu22.04 que actuará como master.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f7f8a4c1-5230-4f63-861d-e1441cc95a5c)
 
