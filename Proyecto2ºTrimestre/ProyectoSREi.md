@@ -23,8 +23,19 @@ Una vez he instalado php voy a instalar mysql.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/013bd260-2ab9-4916-94c2-67ab1f0f9aeb)
 
-Después de instalar mysql vamos a ejecutar un script que viene por defecto con mysql.
+Vemos que puedo acceder a mi base de datos mysql a través del usuario root.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5fa18fce-ca72-4baf-a36c-0d9117bdb25b)
+
+Voy a crear un virtualhost para mi servidor en el directorio /var/www/ , luego voy a cambiarle los permisos.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/e4b8608a-f556-44cc-bb5a-7062e0b39280)
+
+Ahora voy a crear un archivo de configuración nuevo, (apache trae uno predeterminado).
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7c44f20a-b0ae-4a23-a6a8-e497400d4b42)
+
+Una vez creado el archivo de configuración para nuestro dominio recién creado, voy a activar la configuración.
 
 
 
