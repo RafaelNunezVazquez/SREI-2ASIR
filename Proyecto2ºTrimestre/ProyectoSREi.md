@@ -37,6 +37,22 @@ Ahora voy a crear un archivo de configuración nuevo, (apache trae uno predeterm
 
 Una vez creado el archivo de configuración para nuestro dominio recién creado, voy a activar la configuración.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/188e827d-3f46-42b0-9670-034a7f81716c)
+
+Ahora voy a desactivar el virtualhost por defecto de apache: 000-default.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/1fd3947e-af09-44cb-8aa1-321c4dc43715)
+
+Luego voy a usar el comando: "systemctl reload apache2", para aplicar la nueva configuración.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ad85ca49-36bf-42bf-bf53-1720cce05030)
+
+
+
+
+
+
+
 
 
 
