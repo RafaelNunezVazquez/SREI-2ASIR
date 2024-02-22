@@ -44,8 +44,9 @@ Ahora voy a desactivar el virtualhost por defecto de apache: 000-default.
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/1fd3947e-af09-44cb-8aa1-321c4dc43715)
 
 Luego voy a usar el comando: "systemctl reload apache2", para aplicar la nueva configuración.
+Una vez he recargado la configuración vamos a añadir un index.html a nuestro virtualhost para probarlo.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ad85ca49-36bf-42bf-bf53-1720cce05030)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f3f2530f-fb4d-4dbb-85cc-6938d5ae81fa)
 
 
 
