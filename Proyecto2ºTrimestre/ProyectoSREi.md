@@ -49,8 +49,30 @@ Una vez he recargado la configuración vamos a añadir un index.html a nuestro v
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f3f2530f-fb4d-4dbb-85cc-6938d5ae81fa)
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4c662894-8a1c-4e06-ba73-4e282cf7ebf0)
+
+Ahora voy a especificar de forma global(archivo apache2.conf) para darle nombre al servidor.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/582dfa12-090e-407e-9399-bbcf9ab0b000)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/32f51d51-ba5a-4b91-a099-269132b192de)
+
+Vamos a añadir el nombre de nuestro dominio al archivo /etc/hosts
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/18837e1e-ed18-459b-b312-a7c760228ffc)
+
+Voy a probar que el dominio responde.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/00a3747c-c8d2-41da-83ea-81458022613a)
 
 
+Ahora voy a darle prioridad a los archivos de formato .php mediante el modulo dir.conf
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/3c4c411d-0393-49a2-9b83-368d056bb42a)
+
+Una vez hecho esto voy a crear un archivo .php de prueba para que me lo muestre antes que otro de formato .html
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/0205c5d8-8423-4b42-955c-7e67d8d79212)
 
 
 
