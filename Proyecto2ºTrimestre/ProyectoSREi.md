@@ -103,6 +103,14 @@ Una vez hemos configurado phpmyadmin vamos a acceder al mismo desde el navegador
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a3d6a0d7-236e-49ba-90ff-a52b5d07c909)
 
+Vamos a comprobar si el usuario tiene permisos para modificar la base de datos, creare una tabla.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2e70c0a0-8ca8-4d31-9ab9-38156f749e90)
+
+Podemos ver que el usuario que he creado puede modificar la base de datos.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c22a839f-baf4-4ef4-8988-d8b30c1578b3)
+
 
 Voy a instalar openssh-server para dar servicio ssh.
 
