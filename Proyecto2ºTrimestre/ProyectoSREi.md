@@ -91,7 +91,25 @@ Ahora voy a probar que puedo acceder a la BD con el usuario de mysql.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5891e7d9-0b94-4e0c-b2a8-441a6b06ba92)
 
+Ahora voy a instalar phpmyadmin en mi servidor para dar una interfaz gráfica a la Base de datos.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/b604daef-5d9d-4318-8f80-c1e7456a427f)
+
+Una vez hemos instalado phpmyadmin hay que configurarlo para que acceda a mi servidor mysql.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/fd763c91-2f1c-4f4b-af0e-e4402874b592)
+
+Una vez hemos configurado phpmyadmin vamos a acceder al mismo desde el navegador.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a3d6a0d7-236e-49ba-90ff-a52b5d07c909)
 
 
+Voy a instalar openssh-server para dar servicio ssh.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4142ed65-482e-4dbb-890e-269306f49484)
+
+Voy a abrir el puerto 22 de mi server (ssh)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a65367e3-7963-4995-afc0-8fbc9022c828)
 
 
