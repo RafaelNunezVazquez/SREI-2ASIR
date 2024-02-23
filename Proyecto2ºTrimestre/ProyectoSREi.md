@@ -65,7 +65,6 @@ Voy a probar que el dominio responde.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/00a3747c-c8d2-41da-83ea-81458022613a)
 
-
 Ahora voy a darle prioridad a los archivos de formato .php mediante el modulo dir.conf
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/3c4c411d-0393-49a2-9b83-368d056bb42a)
@@ -74,10 +73,23 @@ Una vez hecho esto voy a crear un archivo .php de prueba para que me lo muestre 
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/0205c5d8-8423-4b42-955c-7e67d8d79212)
 
+Voy a añadir la directiva directory en mi virutal host para dar acceso a los clientes.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/683722dd-36b4-455c-8ede-570b04f7cf40)
 
+Ahora voy a crear una base de datos rafamarismaBD en mi servidor mysql y un usuario, para que los usuarios accedan a ella.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2cd467d7-fd6b-4f04-a6a8-3ce94f5150eb)
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/0a692e61-98cb-4a14-b690-5dfd9538abbf)
+
+Ahora le doy permisos al usuario que he creado para hacer consultas y modificaciones en la BD recién creada.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c4efd7b1-f2e4-4504-805b-0d348f6a657f)
+
+Ahora voy a probar que puedo acceder a la BD con el usuario de mysql.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5891e7d9-0b94-4e0c-b2a8-441a6b06ba92)
 
 
 
