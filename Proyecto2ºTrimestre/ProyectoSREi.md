@@ -251,6 +251,18 @@ Ahora voy a crear un directorio zona para configurarlas, copiare la informacion 
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2b1c9798-fa11-4248-9d3b-8ada3eee5bfa)
 
+Eso lo hice para la zona directa, ahora hago lo mismo para la zona inversa.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a86f3fc4-1470-4524-bff4-3dbbe1059c2a)
+
+
+
+
+
+
+
+
+
 
 
 
