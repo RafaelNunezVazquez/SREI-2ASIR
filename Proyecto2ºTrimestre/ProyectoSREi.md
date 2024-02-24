@@ -121,10 +121,6 @@ Ahora desde el navegador voy a acceder a dicha página para ver si me muestra el
 
 Ahora voy a configurar mi DNS para que el cliente acceda a mi servidor a través del mismo.
 
-
-
-
-
 Voy a instalar openssh-server para dar servicio ssh.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4142ed65-482e-4dbb-890e-269306f49484)
@@ -132,5 +128,19 @@ Voy a instalar openssh-server para dar servicio ssh.
 Voy a abrir el puerto 22 de mi server (ssh)
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a65367e3-7963-4995-afc0-8fbc9022c828)
+
+Ahora voy a hacer una conexión ssh desde mi equipo cliente usando mi usuario root.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/1e37cbeb-21c5-47d1-ae74-ca7153c55049)
+
+Voy a crear un usuario en mi servidor para conectar los clientes por ssh.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9247d029-97c5-4b99-81bd-15842afcd9fb)
+
+Ahora voy a añadir al usuario al grupo sudo.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ba09256e-6ddc-4c6c-a082-91918b29c82b)
+
+
 
 
