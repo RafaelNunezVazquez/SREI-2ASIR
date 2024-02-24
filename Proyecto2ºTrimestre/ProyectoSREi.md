@@ -141,6 +141,28 @@ Ahora voy a añadir al usuario al grupo sudo.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ba09256e-6ddc-4c6c-a082-91918b29c82b)
 
+Para darle seguridad a la conexión ssh de mi servidor, voy a crear claves ssh y compartirlas. Creo la clave.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a3f746de-81d3-47b0-9b4f-1fa2446b0b00)
+
+Voy a compartir la clave desde el servidor hacia el equipo cliente.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/db5ef1bd-55e0-4dd0-914c-aaa086784b34)
+
+Voy a comprobar si la clave está en el archivo authorized_keys de mi equipo cliente.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/866dcd35-a026-4fb4-9db3-8d3556793dca)
+
+Compruebo que puedo acceder mediante la clave ssh generada al servidor.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/84dce458-5a24-4bd0-9821-10001c3afe84)
+
+
+
+
+
+
+
 
 
 
