@@ -1,4 +1,4 @@
-Para empezar vamos a instalar ubuntu22.04 que actuará como master.
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/208e1b82-e5f8-41ea-9b73-a9910d870365)Para empezar vamos a instalar ubuntu22.04 que actuará como master.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f7f8a4c1-5230-4f63-861d-e1441cc95a5c)
 
@@ -198,8 +198,50 @@ Ya no hay fallos en la sintaxis en mi configuración de DNS así que voy a arran
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d086b06d-3c10-46fb-8cc1-1085f553828e)
 
+Voy a hacer un systemctl status bind9 para ver el si esta funcionando correctamente y cómo.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/1608eebc-4549-4830-bdc3-35af1507cbbf)
 
+Como podemos ver esta corriendo y voy a hacer un ping desde mi propio server (localhost).
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/6dbe83ee-f4e2-4e38-82ef-7eb947274f9e)
+
+Ahora tenemos que configurar el cliente para conectarse al DNS en mi caso "rafamarisma" edito el archivo /etc/resolv.conf
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2792343a-58f8-4518-b400-3c9b93ce4c80)
+
+Voy a probar un ping a google usando el DNS.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/93ffe40a-4823-476b-9e8f-8469d4906afd)
+
+Voy a usar dig comando de DNS en mi cliente.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/6c9df513-6177-4030-beb4-ca53de0a0700)
+
+Si vuelvo a hacerlo el tiempo de respuesta debe ser minimo, puesto que el servidor guarda la query en la caché.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/01d76ec3-b972-4349-8b19-992ab4e6e92b)
+
+Ahora voy a modificar el archivo de configuracion del servicio bind que lo arranca para que solo tome IPv4.
+Para ello uso el comando: "sudo systemctl edit --full bind9"
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5d0f0d6c-843c-4cc5-8c44-307249271261)
+
+Ahora voy a reiniciar el servicio Bind.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bd79b1d1-6df0-449c-a536-8e0c02fdb0d2)
+
+Ahora me voy al archivo /etc/network/interfaces del equipo cliente para indicarle dns-nameserver.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c655bfac-c348-4666-8b12-938d843c4697)
+
+Ahora en el servidor voy a modificar mi archivo /etc/hosts para que referencie la IP publica con el NS.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d9fc99a7-69a8-4ba1-a41b-9f2f0f5c6277)
+
+Ahora en el servidor voy a modificar el archivo /etc/hostname
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/021b6314-5913-48d3-ac62-e9facaf503bc)
 
 
 
