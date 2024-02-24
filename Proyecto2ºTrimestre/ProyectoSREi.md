@@ -145,31 +145,21 @@ Para darle seguridad a la conexión ssh de mi servidor, voy a crear claves ssh y
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a3f746de-81d3-47b0-9b4f-1fa2446b0b00)
 
-Voy a compartir la clave desde el servidor hacia el equipo cliente.
+Voy a compartir la clave desde el equipo cliente hacia el servidor.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/db5ef1bd-55e0-4dd0-914c-aaa086784b34)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/8a38b0d1-3b51-40af-b746-d78dd99cc314)
 
-Voy a comprobar si la clave está en el archivo authorized_keys de mi equipo cliente.
+Voy a comprobar si la clave está en el archivo authorized_keys de mi servidor.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/866dcd35-a026-4fb4-9db3-8d3556793dca)
-
-Compruebo que puedo acceder mediante la clave ssh generada al servidor.
-
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/84dce458-5a24-4bd0-9821-10001c3afe84)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/758b765a-d435-4749-9555-383a33436444)
 
 Voy a deshabilitar la contraseña de acceso mediante ssh, ya que dispongo de la clave ssh. /etc/ssh/sshd.config
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7675541d-789d-426d-87eb-e000264e811a)
 
-Ahora no me pide la contraseña para acceder al servidor pero no me deja acceder, voy a cambiar los permisos de .ssh
+Compruebo que puedo acceder mediante la clave ssh generada al servidor.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2fe3561e-af8c-4687-bd6c-f2db7b48985b)
-
-
-
-
-
-
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d9ae1991-14b3-4812-a471-75b09d2fbf04)
 
 Ahora voy a configurar mi DNS caching (caché) para mejorar la velocidad y la carga del servidor.
 
