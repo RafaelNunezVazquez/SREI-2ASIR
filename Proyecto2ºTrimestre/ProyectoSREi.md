@@ -157,6 +157,22 @@ Compruebo que puedo acceder mediante la clave ssh generada al servidor.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/84dce458-5a24-4bd0-9821-10001c3afe84)
 
+Voy a deshabilitar la contraseña de acceso mediante ssh, ya que dispongo de la clave ssh. /etc/ssh/sshd.config
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7675541d-789d-426d-87eb-e000264e811a)
+
+Ahora no me pide la contraseña para acceder al servidor pero no me deja acceder, voy a cambiar los permisos de .ssh
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2fe3561e-af8c-4687-bd6c-f2db7b48985b)
+
+
+
+
+
+
+
+Ahora voy a configurar mi DNS caching (caché) para mejorar la velocidad y la carga del servidor.
+
 
 
 
