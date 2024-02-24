@@ -243,6 +243,16 @@ Ahora en el servidor voy a modificar el archivo /etc/hostname
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/021b6314-5913-48d3-ac62-e9facaf503bc)
 
+Ahora voy a modificar el archivo named.conf.local para añadir una zona directa e inversa de mi DNS.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/68ea9a28-c4fe-4f40-abd2-a2e03ceefed4)
+
+Ahora voy a crear un directorio zona para configurarlas, copiare la informacion por defecto de bind al mismo.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2b1c9798-fa11-4248-9d3b-8ada3eee5bfa)
+
+
+
 
 
 
