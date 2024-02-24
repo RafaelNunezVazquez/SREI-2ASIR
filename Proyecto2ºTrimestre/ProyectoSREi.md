@@ -161,9 +161,42 @@ Compruebo que puedo acceder mediante la clave ssh generada al servidor.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d9ae1991-14b3-4812-a471-75b09d2fbf04)
 
+Puedo compartir la misma clave pública con varios usuarios del servidor y autenticarte como cualquiera de esos usuarios desde tu equipo cliente.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/b7b8968e-12b3-4e2f-bbbb-5abdefa3acf0)
+
+Voy a instalar el software bind para montar mi DNS y luego configurarlo.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2ab89c9a-3f1e-4062-8c00-d9702a72de31)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c8f99c67-2f01-46b6-80e6-20d9ea52a3c2)
+
 Ahora voy a configurar mi DNS caching (caché) para mejorar la velocidad y la carga del servidor.
+Para ello voy al directorio /etc/bind y modificamos el archivo named.conf.options
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5b2fd1ef-0a4a-4d4b-9a87-89d9bc6f5743)
 
+Ahora voy a modificar el archivo añadiendo la subred en la que están mi servidor y clientes que son de confianza para mi DNS.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/482a4faf-4a37-47f9-944a-c28bd0a7c2f0)
+
+Ahora voy a añadir los DNS a los que hare consutlas de nombres (forwarding) añadiendo los DNS de google.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f7798010-06df-4925-b90f-a39301e5a2a4)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/43ff40a0-7cb4-4f88-a8fc-4df2cc8c2dbd)
+
+Antes de levantar el servicio DNS voy a comprobar que la configuracion del servidor es correcta.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/44566338-07a3-43e9-acbc-e99e3fe511a9)
+
+(He corregido los fallos) La opcion dnssec-enable es obsoleta para bind de buntu 22.04, viene por defecto activada.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ef5518a8-ea9c-4646-93aa-2b1732f8bb25)
+
+Ya no hay fallos en la sintaxis en mi configuración de DNS así que voy a arrancarlo para probar si funciona.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d086b06d-3c10-46fb-8cc1-1085f553828e)
 
 
 
