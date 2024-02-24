@@ -111,15 +111,17 @@ Podemos ver en local (desde mi pripio servidor) que el usuario que he creado pue
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c22a839f-baf4-4ef4-8988-d8b30c1578b3)
 
-Ahora voy a crear una página web que mediante php muestra contenido de la base de datos que elija.
+Ahora voy a crear una página web que mediante php se enlaza y muestra contenido de la base de datos que elija.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/61deae89-3e50-4f19-8eb9-7b4471e5e038)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4eac5c97-64a5-4223-b473-77b8b3f77629)
 
 Ahora desde el navegador voy a acceder a dicha página para ver si me muestra el contenido de la tabla.
 
-
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/1ff166de-da7e-4a44-925d-a6510e615ca2)
 
 Ahora voy a configurar mi DNS para que el cliente acceda a mi servidor a través del mismo.
+
+
 
 
 
