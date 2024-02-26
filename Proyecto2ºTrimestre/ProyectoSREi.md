@@ -257,7 +257,21 @@ Eso lo hice para la zona directa, ahora hago lo mismo para la zona inversa.
 
 Ahora voy a modificar los ficheros de zona recién creados.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/37a165d0-2967-4f47-a106-9f638118964f)
 
+Ahora modifico la zona inversa recién creada.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4e5dc52e-5786-4b0c-8532-4abc14f9c411)
+
+Voy a comprobar desde el cliente que el DNS está funcionando aunque no le de internet a los clientes, no funciona el ping.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5011c4b7-9894-49b3-a53b-01525db09bd3)
+
+Desde el servidor puedo usar un comando para ver el estado de rndc. sudo rndc status
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f3851451-ce39-4e34-8d24-8010f06dd584)
+
+Mi DNS funciona, ya tengo configurado ssh previamente asi que ahora voy a comenzar a instalar FTP.
 
 
 
