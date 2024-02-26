@@ -255,6 +255,8 @@ Eso lo hice para la zona directa, ahora hago lo mismo para la zona inversa.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a86f3fc4-1470-4524-bff4-3dbbe1059c2a)
 
+Ahora voy a modificar los ficheros de zona recién creados.
+
 
 
 
