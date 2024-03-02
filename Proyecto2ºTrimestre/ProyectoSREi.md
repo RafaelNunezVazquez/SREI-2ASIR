@@ -273,6 +273,19 @@ Desde el servidor puedo usar un comando para ver el estado de rndc. sudo rndc st
 
 Mi DNS funciona, ya tengo configurado ssh previamente asi que ahora voy a comenzar a instalar FTP.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/64780d1e-8b8f-48d2-a9c3-1fd1aa6befbb)
+
+Ahora voy a configurar el archivo "/etc/proftpd/proftpd.conf" para mi servidor.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/0232d627-ea3f-4339-a40f-0839377706a3)
+
+Ahora voy a instalar openssl.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/e383d5ea-b458-4813-bff9-40437276f556)
+
+
+
+
 
 
 
