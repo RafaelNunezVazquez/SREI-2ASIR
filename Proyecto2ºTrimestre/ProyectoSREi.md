@@ -311,8 +311,9 @@ Ahora comprobamos si la conexion es correcta. Puedo ver que me da la opcion de a
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2fc850ee-bef7-41b3-84cc-e7621d966329)
 
-Voy a configurar SFTP parea que la conexion sea segura.
+Voy a configurar mi servidor FTP para que use SFTP en su lugar, así la conexion es segura.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/70fa403f-d2aa-43c0-8db7-41adf1e1f7f8)
 
 
 
