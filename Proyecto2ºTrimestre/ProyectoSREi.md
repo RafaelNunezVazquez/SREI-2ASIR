@@ -291,6 +291,16 @@ Para que mi servidor use TLS vamos al fichero de proft: "/etc/proftpd/proftpd.co
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ca563058-f80c-4752-ab16-dece0066fb81)
 
+Ahora voy a generar certificados ssl para mi servidor.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/153833b7-4364-4ff7-837d-76b206554244)
+
+Compruebo que se han generado y cambio los permisos de las claves generadas.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4fe65bc6-6b4f-4210-ab3d-2d155ae08cdf)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/3418ee9c-2699-4659-8b5e-e75eeea9206a)
+
 Ahora voy a configurar el archivo "/etc/proftpd/tls.conf".
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/fc0af316-8eeb-4876-8d65-ad3aeb35e22e)
@@ -315,6 +325,9 @@ Voy a configurar mi servidor FTP para que use SFTP en su lugar, así la conexion
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/70fa403f-d2aa-43c0-8db7-41adf1e1f7f8)
 
+Desde el equipo cliente abrimos filezilla y configuramos el acceso SFTP, voy a importar la clave ssh.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/cc448953-4574-49ae-b2a1-c06bfb551512)
 
 
 
