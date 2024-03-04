@@ -287,6 +287,37 @@ Voy a probar una conexion a ftp en mi servidor.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/013c963b-0874-489d-9cc7-af270f83b7f2)
 
+Para que mi servidor use TLS vamos al fichero de proft: "/etc/proftpd/proftpd.conf" y descomentamos una linea.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ca563058-f80c-4752-ab16-dece0066fb81)
+
+Ahora voy a configurar el archivo "/etc/proftpd/tls.conf".
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/fc0af316-8eeb-4876-8d65-ad3aeb35e22e)
+
+Agora voy a reiniciar el servicio proftpd
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/cd67a1a8-53d9-442a-b631-e26355237a4e)
+
+Ahora voy a instalar filezilla en el equipo cliente para acceder por sftp desde el mismo.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/617e1f1e-7155-4280-92e3-78f806bcb6a5)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/6b05f26a-7e6a-422f-b277-bd242ed52bd8)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c9d05ea7-6fbe-45bc-b8ac-7472d14b7154)
+
+Ahora comprobamos si la conexion es correcta.
+
+
+
+
+
+
+
+
+
+
 
 
 
