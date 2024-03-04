@@ -29,6 +29,6 @@ Ejercicio N | Breve descripción
 ---------- | --------- 
 
 **Proyecto 2º Trimestre**
-[Proyecto2ºtrimestre](/Proyecto2ºTrimestre/ProyectoSREI.md)
+[Proyecto2ºtrimestre](/Proyecto2ºTrimestre/ProyectoSREI.md) | Servidor web apache 
 --------- | -------------
 
