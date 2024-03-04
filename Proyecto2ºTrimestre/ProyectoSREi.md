@@ -323,6 +323,7 @@ Ahora comprobamos si la conexion es correcta. Puedo ver que me da la opcion de a
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/6a6b629c-8254-4e60-948e-0ece64877dca)
 
+El protocolo FTP usando TLS es seguro pero podemos mejorarlo usando SFTP.
 
 Voy a configurar mi servidor FTP para que use SFTP en su lugar, así la conexion es segura.
 
