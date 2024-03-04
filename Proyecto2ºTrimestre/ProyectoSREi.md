@@ -283,6 +283,9 @@ Ahora voy a instalar openssl.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/e383d5ea-b458-4813-bff9-40437276f556)
 
+Voy a probar una conexion a ftp en mi servidor.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/013c963b-0874-489d-9cc7-af270f83b7f2)
 
 
 
