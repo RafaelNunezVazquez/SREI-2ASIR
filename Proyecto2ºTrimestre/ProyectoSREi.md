@@ -317,9 +317,12 @@ Ahora voy a instalar filezilla en el equipo cliente para acceder por sftp desde 
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c9d05ea7-6fbe-45bc-b8ac-7472d14b7154)
 
-Ahora comprobamos si la conexion es correcta. Puedo ver que me da la opcion de acceso sin TLS usando ftp en lugar de SFTP.
+Ahora comprobamos si la conexion es correcta. Puedo ver que me da la opcion de acceso TLS usando ftp.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2fc850ee-bef7-41b3-84cc-e7621d966329)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/24944811-8f9b-48e2-a153-48023f234bed)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/6a6b629c-8254-4e60-948e-0ece64877dca)
+
 
 Voy a configurar mi servidor FTP para que use SFTP en su lugar, así la conexion es segura.
 
