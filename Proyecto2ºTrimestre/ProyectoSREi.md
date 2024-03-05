@@ -208,7 +208,7 @@ Como podemos ver esta corriendo y voy a hacer un ping desde mi propio server (lo
 
 Ahora tenemos que configurar el cliente para conectarse al DNS en mi caso "rafamarisma" edito el archivo /etc/resolv.conf
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/2792343a-58f8-4518-b400-3c9b93ce4c80)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/1ba35401-fdd2-41a3-960a-db2ce3fe155a)
 
 Voy a probar un ping a google usando el DNS.
 
@@ -230,10 +230,6 @@ Para ello uso el comando: "sudo systemctl edit --full bind9"
 Ahora voy a reiniciar el servicio Bind.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bd79b1d1-6df0-449c-a536-8e0c02fdb0d2)
-
-Ahora me voy al archivo /etc/network/interfaces del equipo cliente para indicarle dns-nameserver.
-
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c655bfac-c348-4666-8b12-938d843c4697)
 
 Ahora en el servidor voy a modificar mi archivo /etc/hosts para que referencie la IP publica con el NS.
 
@@ -263,7 +259,7 @@ Ahora modifico la zona inversa recién creada.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4e5dc52e-5786-4b0c-8532-4abc14f9c411)
 
-Voy a comprobar desde el cliente que el DNS está funcionando aunque no le de internet a los clientes, no funciona el ping.
+Voy a comprobar desde el cliente que el DNS está funcionando, hare un ping hacia el DNS
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5011c4b7-9894-49b3-a53b-01525db09bd3)
 
