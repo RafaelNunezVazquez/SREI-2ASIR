@@ -261,7 +261,7 @@ Ahora modifico la zona inversa recién creada.
 
 Voy a comprobar desde el cliente que el DNS está funcionando, hare un ping hacia el DNS
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5011c4b7-9894-49b3-a53b-01525db09bd3)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/7b1984f3-4677-47a4-ade6-7de48109651d)
 
 Desde el servidor puedo usar un comando para ver el estado de rndc. sudo rndc status
 
@@ -352,7 +352,7 @@ Aqui tengo la funcion que crea el subdominio en mi DNS.
 
 Aqui esta la funcion que crea un usuario y el directorio que da servicio web.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/02a1b4d6-59b4-4af4-ab65-a7faba5b7081)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/1887e7e1-f605-4bb8-af8e-0740380d82e6)
 
 Aqui la esta funcion que crea una base de datos además de un usuario con todos los permisos sobre dicha base de datos.
 
@@ -373,6 +373,34 @@ Voy a ejecutar el script por partes y muestro los resultados.
 Dentro del directorio db.rafamarisma1.local me crea un subdominio, en este caso "subrafamarisma".
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bd539bd0-13d3-4410-9f44-21f6820d782d)
+
+Ya hemos comprobado que el subdominio se crea correctamente dentro de nuestro archivo de DNS (bind).
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/5b314402-6be5-4522-8700-15f650d7b023)
+
+Ahora voy a comprobar la creacion del usuario y del directorio para el alojamiento web.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ca1683e0-3443-4b70-aeec-d702fd175ea7)
+
+Voy a los virtualhost de apache2, en sites-avaiable puedo ver como se ha creado el virtualhost.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9eb95778-e0f2-49ca-9e24-b866081c7c09)
+
+Voy al directorio donde se ha creado la pagina web con una pagina index.html para mostrar su funcionamiento.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/b55ffced-cbe4-4043-8947-8280964a71fd)
+
+Desde el navegador voy a comprobar si funciona correctamente.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/0c046b62-0521-4947-88ec-a0103c0baa95)
+
+
+
+
+
+
+
+
 
 
 
