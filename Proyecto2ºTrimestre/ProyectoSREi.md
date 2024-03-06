@@ -331,6 +331,11 @@ Desde el equipo cliente abrimos filezilla y configuramos el acceso SFTP, voy a i
 
 
 
+Ahora voy a crear un archivo que contiene scripts (formato: .sh) que automatizen creacion de subdominios, usuarios virtuales y su directorio virtual , host virtual de apache, base de datos además de un usuario con permisos sobre la misma, usuarios ssh y ftp.
+
+Aqui tengo el script que crea el subdominio en mi DNS.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/432d8804-3a76-48fc-ad07-4e80791d9f2f)
 
 
 
