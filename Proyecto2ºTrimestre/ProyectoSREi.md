@@ -394,7 +394,9 @@ Desde el navegador voy a comprobar si funciona correctamente.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/0c046b62-0521-4947-88ec-a0103c0baa95)
 
+Ya he comprobado la creacion de usuario y directorio para alojamiento web.
 
+Ahora voy a comprobar la funcion que crea una base de datos además de un usuario con todos los permisos sobre dicha base de datos
 
 
 
