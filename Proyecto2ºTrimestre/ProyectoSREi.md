@@ -145,7 +145,7 @@ Para darle seguridad a la conexión ssh de mi servidor, voy a crear claves ssh y
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a3f746de-81d3-47b0-9b4f-1fa2446b0b00)
 
-Voy a compartir la clave desde el equipo cliente hacia el servidor.
+Voy a compartir la clave desde el el equipo cliente hacia servidor.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/8a38b0d1-3b51-40af-b746-d78dd99cc314)
 
@@ -325,27 +325,54 @@ Voy a configurar mi servidor FTP para que use SFTP en su lugar, así la conexion
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/70fa403f-d2aa-43c0-8db7-41adf1e1f7f8)
 
-Desde el equipo cliente abrimos filezilla y configuramos el acceso SFTP, voy a importar la clave ssh.
+Voy a comprobar con un usuario ssh si puedo acceder desde sftp.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/cc448953-4574-49ae-b2a1-c06bfb551512)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/83ae71f6-5a83-4e17-9be4-22102e646c43)
 
+Ahora desde filezilla en el equipo cliente probaré la conexion SFTP.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/51c8bf43-3166-4112-97df-4886b368e11f)
 
-Ahora voy a crear un archivo que contiene scripts (formato: .sh) que automatizen creacion de subdominios, usuarios virtuales y su directorio virtual , host virtual de apache, base de datos además de un usuario con permisos sobre la misma, usuarios ssh y ftp.
+Introducimos la contraseña del usuario ssh.
 
-Aqui tengo el script que crea el subdominio en mi DNS.
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bc079d0f-0ac0-4144-b8f1-598e74eb85a1)
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/432d8804-3a76-48fc-ad07-4e80791d9f2f)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/9cd63b0d-44c8-40ec-aad6-1da23d154c58)
 
+Y ya nos ha conectado a mi servidor (rafamarisma) desde una conexion segura sftp.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/b37ae546-e26f-4e5d-b9ee-d05e511cd69e)
 
+Ahora voy a crear un archivo que contiene scripts (formato: .sh) que automatizen creacion de subdominios, usuarios virtuales y su directorio virtual , host virtual de apache, base de datos además de un usuario con permisos sobre la misma, usuarios ssh.
+Los incluiré todos en un mismo archivo (.sh) que tendrá un menú para elegir entre las opciones.
 
+Aqui tengo la funcion que crea el subdominio en mi DNS.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/ca1e5274-a22e-4f19-a833-72c9edbc3a2d)
 
+Aqui esta la funcion que crea un usuario y el directorio que da servicio web.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/02a1b4d6-59b4-4af4-ab65-a7faba5b7081)
 
+Aqui la esta funcion que crea una base de datos además de un usuario con todos los permisos sobre dicha base de datos.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/739970da-0306-4e41-8609-a64401f01e88)
 
+Aqui esta la funcion que crea un usuario del sistema para acceso a ssh.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/b549199d-b933-44ec-a0cb-68ce8275ae82)
+
+Aqui esta la funcion de menu que hace la llamada al resto de funciones del script.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/1095d1ee-5817-4bd9-856c-12228aa67360)
+
+Voy a ejecutar el script por partes y muestro los resultados.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d0a9e4d8-277e-48ca-84fe-612537cff886)
+
+Dentro del directorio db.rafamarisma1.local me crea un subdominio, en este caso "subrafamarisma".
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/bd539bd0-13d3-4410-9f44-21f6820d782d)
 
 
 
