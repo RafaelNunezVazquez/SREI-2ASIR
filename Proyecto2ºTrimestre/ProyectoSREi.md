@@ -404,6 +404,9 @@ Ahora voy a comprobar la funcion que crea una base de datos además de un usuari
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4737413e-c8a4-4839-ab23-15cdf35728e3)
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f0b6bc19-9aee-4229-a2e7-d98798d77765)
+
+
 Ahora voy a comprobar que la creacion del usuario ssh es correcta usando la ultima funcion.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c7fe93ab-03a9-4864-9254-5660ac73595d)
