@@ -358,6 +358,8 @@ Aqui la esta funcion que crea una base de datos además de un usuario con todos 
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/739970da-0306-4e41-8609-a64401f01e88)
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/b462e31e-6f55-49f9-89df-34bf5e9d2814)
+
 Aqui esta la funcion que crea un usuario del sistema para acceso a ssh.
 
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/b549199d-b933-44ec-a0cb-68ce8275ae82)
@@ -400,8 +402,15 @@ Ahora voy a comprobar la funcion que crea una base de datos además de un usuari
 
 
 
+Ahora voy a comprobar que la creacion del usuario ssh es correcta usando la ultima funcion.
 
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/c7fe93ab-03a9-4864-9254-5660ac73595d)
 
+Voy a comprobar el acceso mediante ssh y luego si al crear otro usuario con el mismo nombre, nos lo debe impedir.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/47233623-dc73-47e5-9b56-6c4a1d6b20ec)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/d23f1ecc-4630-4e9e-a1b2-bd1aff0b8bf4)
 
 
 
