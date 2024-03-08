@@ -356,9 +356,7 @@ Aqui esta la funcion que crea un usuario y el directorio que da servicio web.
 
 Aqui la esta funcion que crea una base de datos además de un usuario con todos los permisos sobre dicha base de datos.
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/739970da-0306-4e41-8609-a64401f01e88)
-
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/b462e31e-6f55-49f9-89df-34bf5e9d2814)
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/8c3a4f73-6437-49bd-a083-9ca8babb960b)
 
 Aqui esta la funcion que crea un usuario del sistema para acceso a ssh.
 
@@ -400,12 +398,19 @@ Ya he comprobado la creacion de usuario y directorio para alojamiento web.
 
 Ahora voy a comprobar la funcion que crea una base de datos además de un usuario con todos los permisos sobre dicha base de datos
 
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/a75c99d6-2de6-456e-9546-200e913a2d07)
-
-![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/4737413e-c8a4-4839-ab23-15cdf35728e3)
-
 ![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/f0b6bc19-9aee-4229-a2e7-d98798d77765)
 
+Voy a comprobar que puedo acceder a phpmyadmmin con elnuevo usuario y veo la base de datos creada.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/0197801d-708e-4fd8-b77f-71f4ee43a3bb)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/46018f46-bde3-42db-88cd-d76681dff123)
+
+Voy a crear una tabla para comprobar que tengo permisos sobre la base de datos.
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/47d36116-1945-415f-946b-16a6efeb177f)
+
+![image](https://github.com/RafaelNunezVazquez/SREI-2ASIR/assets/91255999/59cc9774-0ff6-44e7-951c-ae81959becf0)
 
 Ahora voy a comprobar que la creacion del usuario ssh es correcta usando la ultima funcion.
 
